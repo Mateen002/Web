@@ -1,10 +1,10 @@
-export default function Hero(){
+export default function Hero(props){
     return(
         <section className="hero"> 
-        <p> Introduction to </p>
-        <h1>CREATIVE METEOR</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ad nihil quis illum modi itaque tempora! Suscipit reprehenderit officia nemo porro ipsum? Atque, repellat.</p>
-        <button>DISCOVER MORE</button>
+        <p>{props.heroPintro}</p>
+        <h1>{props.heroH1heading}</h1>
+        <p>{props.contentP}</p>
+        <button className="btns">{props.heroBtn}</button>
         </section>
     )
 }
