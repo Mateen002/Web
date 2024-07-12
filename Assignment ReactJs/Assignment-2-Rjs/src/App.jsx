@@ -8,6 +8,9 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import Offers from '../components/Offers'
 import Portfolio from '../components/Portfolio'
+import Blogs from '../components/Blogs'
+import Stats from '../components/Stats'
+import Contact from '../components/Contact'
 
 
 function App() {
@@ -27,6 +30,16 @@ function App() {
       <Services/>
      <Offers/>
 <Portfolio/>
+<Blogs/>
+<Stats/>
+<footer>
+  <Contact/>
+  <div id='nav-back'>
+<NavBar/>
+</div>
+
+</footer>
+
       </div>
 
     </>

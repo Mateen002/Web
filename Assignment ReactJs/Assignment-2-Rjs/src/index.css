@@ -219,3 +219,119 @@ width: 250px;
 background: url('/turbines.jpg') no-repeat center center/cover ;
 
 }
+
+.blog-con{
+  text-align: center;
+  background-color: rgb(130, 215, 130);
+  padding: 100px 200px;
+}
+
+.blog-img{
+  padding: 0%;
+  height: 240px;  
+  width: 45%;
+  
+  background: url('/turbines.jpg') no-repeat center center/cover ;
+
+}
+.blog-con h1{
+ 
+  color: aliceblue;
+  font-size: medium;
+}
+.blog-con h2{
+  margin-bottom: 50px;
+  color: aliceblue;
+  font-size: medium;
+}
+.blog-con2{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .blog-img2{
+ 
+} */
+.stats-con{
+  display: flex;
+  
+  justify-content: center;
+  padding: 50px 150px;
+  gap: 18px;
+
+}
+.stat{
+  height: 110px;
+  width: 300px;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(89, 202, 89);
+  align-items: center;
+  flex-direction: column;
+}
+.stats-con .stat p{
+  margin-top: 10px;
+color: rgba(0, 0, 0, 0.422);
+font-size: small;
+}
+footer{
+text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+#nav-back{
+  background-color: black;
+}
+.contact-con{
+  display: flex;
+  flex-direction: column;
+  background: url('/mountains.jpg') no-repeat center center/cover;
+  color: white;
+  /* filter: brightness(0.3); */
+
+}
+.contact-con h2{
+  color: aliceblue;
+  font-size: medium;
+  margin-top: 70px;
+}
+.contact-con p{
+  margin-bottom: 0px;
+  color: aliceblue;
+  font-size: medium;
+
+}
+.contact-imgs{
+  display: flex;
+  margin: 0%;
+  padding: 40px 200px;
+
+  gap: 10px;
+}
+.img{
+  position: relative;
+  height: 270px;
+  width: 450px;
+  background-color: aliceblue;
+}
+.s{
+  height: 35px;
+width: 180px;
+  background-color: aliceblue;
+}
+.box{
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.w{
+  height: 200px;
+  position: absolute;
+  
+  right: 50%;
+  width: 300px;
+  background-color: rgb(42, 90, 132);
+}
